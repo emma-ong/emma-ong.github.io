@@ -1,0 +1,587 @@
+body {
+  background-color: aliceblue;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  margin: 0;
+}
+
+.header h1 {
+  font-size: 300%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.back {
+  font-size: 150%;
+  position: relative;
+  margin-right: 50%;
+  bottom: 23px;
+}
+
+.footer {
+  padding:4%;
+}
+
+.footer-child {
+  display: inline-block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.about-me {
+  background-color: white;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+.about-me-body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/* aligns elements in div side-by-side */
+.about-me-child {
+  display: inline-block;
+  /* display: table-cell;
+  text-align: center; */
+}
+
+/* resizes images to fit parent div */
+#about-me-img {
+  position: relative;
+  padding: 5%;
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+  /* Centers image */
+    display: block;
+    margin: auto;
+   
+    
+
+}
+
+.p{
+  position: relative;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  font-size: 200%;
+  /* centers image vertically */
+  vertical-align: middle;
+}
+
+/* Adds shadow to blog div */
+.page{
+  
+  background-color: #F8FCFF, ;
+  box-shadow: 10px 10px 10px 10px #DAE0E6;
+  width: 95%;
+    /* horizontal align */
+    margin: 5% auto;
+    /* Elements within that extend beyond margins won't show e.g #blog-who-img*/
+    overflow: hidden;
+}
+
+#page-aboutme {
+  width: 100%;
+  margin-top: -10%;
+}
+
+#page-projects {
+  width: 100%;
+  margin-top: -2%;
+}
+
+#page-id {
+  max-width: 100%;
+  margin-top: -5%;
+}
+
+#page-blog {
+  width: 100%;
+  margin-top: -5%;
+}
+
+.blogs-title {
+  padding-bottom: 1%;
+  font-size: 200%;
+}
+
+.blogs-title:hover {      
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/* aboutme.html */
+
+.about-me-body {
+  background-color: white;
+  width: 80%;
+  margin: 5% auto;
+  padding:5%;
+  
+  border-radius: 25px;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+
+}
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/* blog.html */
+.blog-posts {
+  font-family: 'Raleway', sans-serif;
+  height: auto;
+  width: 50%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  /* Aligntment of circles */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 25%;
+}
+
+.posts {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  padding: 7%;
+  font-size: 90%;
+  
+  /* aligns text in center of div */
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  /* vertically aligns elements from top-bottom  */
+   flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+#one, #two, #three, #four, #five, #six, #seven, #eight  {
+  background-color: lightblue; /*fallback color*/
+  background-color: #FCFEFF;
+  top:100px;
+  margin-top: 5%;
+}
+
+
+
+
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover{
+  background-color: #FFF0F1;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/* html-css.html */
+
+.html-css-body {
+  background-color: white;
+}
+
+.positioning-body{
+  background-color: aliceblue;
+  width: 80%;
+  margin: 0% auto;
+  padding:5%;
+  
+  border-radius: 25px;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+.positioning-body h3 {
+  font-size: 200%;
+}
+
+.positioning-body th {
+  font-size: 150%;
+}
+
+.positioning-body td {
+  font-family: 'Raleway', sans-serif;
+}
+
+.position-div{
+  /* aligns elements in center of page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+
+}
+
+.positioning-intro {
+  width:70%;
+  margin: auto;
+}
+
+.positioning-intro p{
+  font-family: 'Raleway', sans-serif;
+}
+
+table, th, td {
+  border: 1px solid black;
+  /* makes border single-lined */
+  border-collapse: collapse;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.diagrams-rel {
+  /* resizing image to scale */
+  width: 20%;
+  height: auto;
+}
+
+#relative-reposition {
+  width: 25%;
+  height: auto;
+  margin-left: 5%;
+}
+
+
+.diagrams-abs {
+  /* resizing image to scale */
+  width: 30%;
+  height: auto;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/* learning-plan/html */
+
+.plan-body {
+  width: 80%;
+  margin: 5% auto;
+  background-color: white;
+  border-radius: 25px;
+  padding:5%;
+  font-family: 'Raleway', sans-serif;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/* identity-values.html */
+
+.id-body {
+  width:80%;
+  height: auto;
+  background-color: white;
+  margin: 0% auto;
+  padding:5%;
+  border-radius: 25px;
+  font-family: 'Raleway', sans-serif;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+.plan-body h2, h4 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 200%;
+}
+
+
+
+/* emotional-intelligence */
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+  
+}
+
+.center {
+  text-align: center;
+}
+
+.box {
+  font-family: 'Raleway', sans-serif;
+  overflow-x: auto; /* prevents words from leaking out of boxes, scroll bar produced*/
+  text-align: left;
+  margin: 1rem;
+  padding: 10%;;
+  background-color: white;
+  border-radius: 25px;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5); 
+}
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout */
+
+.box h2  {
+  font-family: 'Amatic SC', cursive;
+  font-size: 300%;
+}
+
+.box1 {
+  
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.box2 {
+  
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.box3 {
+  
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+@media only screen and (max-width: 1126px) {
+  .box1 {
+  
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
+  .box2 {
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  
+  .box3 {
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+}
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/* javascript-dom */
+
+.js-body {
+  width:100%;
+  height: auto;
+  background-color: white;
+  margin: 0% auto;
+  padding: 5% 0;
+  font-family: 'Amatic SC', cursive;
+  
+}
+
+.js-body h2 {
+  font-size: 4vh;
+  
+}
+
+.js-body p{
+  width: 40%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+.cat-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+ 
+ 
+}
+
+.cat-images {
+  height: auto;
+  width: 10%;
+}
+
+.cat1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.cat2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.cat3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.cat4 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.cat4 p{
+  margin-left: 30%;
+}
+
+.cat5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+
+.cat6 p{
+  margin-right: 30%;
+}
+
+.cat6 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+.cat7 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+
+.cat8 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 8;
+  grid-row-end: 9;
+}
+
+.code {
+  width: 70%
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/* neuroplasticity.html */
+
+.neuro-body, .problem-body, .foundations-body {
+  width: 80%;
+  text-align: left;
+  margin: 0% auto;
+  background-color: white;
+  border-radius: 25px;
+  padding:5%;
+  font-family: 'Raleway', sans-serif;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+
+.neuro-body h3, h4, h5 {
+  font-size: 4vh;
+  font-family: 'Amatic SC', cursive;
+  
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/* problem-solving.html */
+.problem-body h3, h4, h5 {
+  font-size: 4vh;
+  font-family: 'Amatic SC', cursive;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/* foundations-reflections.html */
+
+.foundations-body h2, h3, h4, h5 {
+  font-size: 4vh;
+  font-family: 'Amatic SC', cursive;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/* projects.html */
+
+.projects {
+  position: relative;
+  margin: 5% auto;
+  display: grid;
+  background-image: url("../images/queenstown.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+  height: 75vh;
+  width: 100%;
+}
+
+.project {
+  color: white;
+  font-size: 10vw;
+  margin-top: 50%;
+  height:20%;
+}
+
+.project:hover {
+  font-size: 15vw;
+}
+
+@media only screen and (min-width: 1000px) {
+  .projects a{
+    margin-top: 20%;
+   }
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/* projectsEDA.html */
+
+
+.project-parent {
+  margin: 10% auto;
+  width: 80%;
+  display: grid;
+  row-gap: 50%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 80%;
+}
+
+.project-child {
+  font-size: 250%;
+}
+

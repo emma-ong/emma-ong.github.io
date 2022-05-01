@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Positioning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet"><script src="https://kit.fontawesome.com/efc637016a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css" type="text/css">
+  </head>
+  <body class="html-css-body">
+    <div class="header">
+      <h1>Positioning</h1>
+      <h2>Relative | Absolute | Fixed</h2>
+    </div>
+    <div class="home">
+      <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+    </div>
+    <div class="back">
+      <a href="../blog/blog.html"><i class="fa-solid fa-arrow-left"></i></a>
+    </div>
+      <div class="positioning-body">
+        <div class="positioning-intro">
+          <h3>| Let's start with some terminology... |</h3>
+          <h4 class="position-terms"><u>Position properties & values</u></h4>
+          
+            <p>The CSS position property allows us to determine
+            where an element is positioned on a web page / HTML document.
+            Here are some of the following values the position property can be assigned to:
+            Relative,
+            Absolute,
+            or Fixed.
+            On a CSS doc, it could look something like this:
+            </p>
+
+          <p>position: relative;</p>
+          <p>position: absolute;</p>
+          <p>position: fixed;</p>
+          
+            <p>Additionally, once the position property and its value is set, we can also use the 
+              following directional properties and set values to determine the element’s final position location.
+              On a CSS doc, it could look something like this:
+            </p>
+          
+          <p>top: 1px;</p>
+          <p>right: 20%;</p>
+          <p>bottom: auto;</p>
+          <p>left: inherit;</p>
+
+          <h4 class="position-terms"><u>What does "to be taken out of flow" mean?</u></h4>
+          <p>
+            To take an element out of the document flow,  
+            is when no space is created for the element within the page's layout.
+            This means that the surrounding elements will reposition themselves 
+           as though the element did not exist
+          </p>
+
+          <table>
+            <tr>
+              <th>Part of flow</th>
+            </tr>
+            <tr>
+              <td>
+                <img class="diagrams-rel" src="../images/inflow.png" alt="">
+              </td>
+            </tr>
+            <tr>
+              <th>Out of flow</th>
+            </tr>
+            <tr>
+              <td><img class="diagrams-rel" src="../images/outofflow.png" alt=""></td>
+            </tr>
+          </table>
+          
+          <h3>| Relative Positioning |</h3>
+          <table>
+            <tr>
+              <td>1. Maintains element in the normal flow</td>
+            </tr>
+            <tr>
+              <td><img class="diagrams-rel" src="../images/relative1.png" alt=""></td>
+            </tr>
+            <tr>
+              <td>2. If directional property & values to be applied in the CSS doc</td>
+            </tr>
+            <tr>
+              <td><img class="diagrams-rel" src="../images/relative2.png" alt=""></td>
+            </tr>
+            <tr>
+              <td>3. Repositions element relative to itself (moves from its normal position)</td>
+            </tr>
+            <tr>
+              <td><img id ="relative-reposition" class="diagrams" src="../images/relative3.png" alt=""></td>
+            </tr>
+          </table>
+
+          <h3>| Absolute Positioning |</h3>
+          <table>
+            <tr>
+              <td>1. Removes element from the normal flow</td>
+            </tr>
+            <tr>
+              <td><img class="diagrams-abs" src="../images/abs1.png" alt=""></td>
+            </tr>
+            <tr>
+              <td>2. If directional property & values to be applied in the CSS doc</td>
+            </tr>
+            <tr>
+              <td><img class="diagrams-abs" src="../images/abs2.png" alt=""></td>
+            </tr>
+            <tr>
+              <td>3. Repositions element relative to its closest parent container</td>
+            </tr>
+            <tr>
+              <td><img class="diagrams-abs" src="../images/abs3.png" alt=""></td>
+            </tr>
+          </table>
+
+
+          <h3>| Fixed Positioning |</h3>
+          
+          <table>
+            <tr>
+              <td>1. Removes element from the normal flow & repositions element relative to the browser or viewport</td>            
+            </tr>
+            <tr>
+              <td><img class="diagrams-abs" src="../images/fixed1.png" alt=""></td>
+            </tr>
+            <tr>
+              <td>2. Position remains fixed on screen when scrolled</td>
+            </tr>
+            <tr>
+              <td><img class="diagrams-abs" src="../images/fixed2.png" alt=""></td>
+            </tr>
+          </table>
+
+        </div>
+       
+
+        </div>
+        
+
+      </div>
+    
+    
+    <footer class="footer">
+      <div class="footer-child">
+        <a href="https://github.com/emma-ong"> <img src="../images/GitHub-Mark/PNG/GitHub-Mark-32px.png" alt="GitHub icon"></a>
+      </div>
+    </footer>
+
+  </body>
+</html>
